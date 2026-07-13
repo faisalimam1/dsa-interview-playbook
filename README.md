@@ -1,272 +1,172 @@
-\# 📘 DSA Interview Playbook
+# 🚀 DSA Interview Playbook
 
+> A structured Software Engineering interview preparation roadmap focused on **pattern recognition**, **algorithmic thinking**, and **clean implementations** in **C++**, **Python**, and **JavaScript**.
 
+---
 
-> A pattern-first Data Structures \& Algorithms playbook documenting my journey toward becoming a Software Engineer through interview-focused problem solving.
+## 📌 About
 
+This repository documents my journey of mastering Data Structures & Algorithms from first principles instead of memorizing solutions.
 
+The objective is not to solve the maximum number of LeetCode problems, but to:
 
-\---
+- Recognize algorithmic patterns
+- Derive optimal solutions
+- Write clean, interview-ready code
+- Explain trade-offs and complexity
+- Build strong Software Engineering fundamentals
 
+Every problem is implemented in:
 
+- C++
+- Python
+- JavaScript
 
-\## 🚀 About This Repository
+Each topic also includes documentation and revision notes.
 
+---
 
-
-This repository is my structured journey of mastering \*\*Data Structures \& Algorithms\*\* for Software Engineering interviews.
-
-
-
-Rather than collecting LeetCode solutions, this repository focuses on understanding \*\*why algorithms work\*\*, \*\*how to derive them\*\*, and \*\*how to communicate them effectively during technical interviews\*\*.
-
-
-
-Every topic is organized as a learning module containing:
-
-
-
-\- 📖 Pattern explanations
-
-\- 🧠 Algorithm intuition
-
-\- 🎯 Pattern recognition clues
-
-\- 🔄 Loop invariants
-
-\- 📊 Complexity analysis
-
-\- 💻 C++ implementations
-
-\- 🐍 Python implementations
-
-\- 🌐 JavaScript implementations
-
-\- 💡 Interview notes
-
-\- 📝 Revision cheat sheets
-
-
-
-The goal is to build strong algorithmic thinking instead of memorizing solutions.
-
-
-
-\---
-
-
-
-\# 🎯 Learning Philosophy
-
-
-
-For every problem, I follow this workflow:
-
-
-
-1\. Understand the problem
-
-2\. Ask clarifying interview questions
-
-3\. Derive the brute-force solution
-
-4\. Analyze complexity
-
-5\. Identify the underlying pattern
-
-6\. Optimize the solution
-
-7\. Dry run the algorithm
-
-8\. Implement in C++
-
-9\. Implement in Python
-
-10\. Implement in JavaScript
-
-11\. Review complexity, edge cases, and interview communication
-
-
-
-\---
-
-
-
-\# 📚 Repository Structure
-
-
-
-```text
-
-dsa-interview-playbook/
-
-│
-
-├── README.md
-
-│
-
-├── Day-01-Arrays/
-
-│   ├── README.md
-
-│   ├── CPP/
-
-│   ├── Python/
-
-│   ├── JavaScript/
-
-│   └── Assets/
-
-│
-
-├── Day-02-Two-Pointers/
-
-├── Day-03-Sliding-Window/
-
-├── Day-04-Hashing/
-
-├── Day-05-Binary-Search/
-
-│
-
-...
-
-```
-
-
-
-\---
-
-
-
-\# 🛣️ 20-Day Interview Roadmap
-
-
+# 🗺️ Learning Roadmap
 
 | Day | Topic | Status |
+|:---:|----------------------------|:------:|
+| 01 | Arrays | ✅ |
+| 02 | Two Pointers | ⏳ |
+| 03 | Sliding Window | ⏳ |
+| 04 | Prefix Sum | ⏳ |
+| 05 | Hash Maps & Hash Sets | ⏳ |
+| 06 | Stack | ⏳ |
+| 07 | Queue & Deque | ⏳ |
+| 08 | Binary Search | ⏳ |
+| 09 | Linked List | ⏳ |
+| 10 | Trees | ⏳ |
+| 11 | Binary Search Trees | ⏳ |
+| 12 | Heap / Priority Queue | ⏳ |
+| 13 | Backtracking | ⏳ |
+| 14 | Graphs (BFS & DFS) | ⏳ |
+| 15 | Topological Sort & Union Find | ⏳ |
+| 16 | Greedy Algorithms | ⏳ |
+| 17 | Dynamic Programming I | ⏳ |
+| 18 | Dynamic Programming II | ⏳ |
+| 19 | Advanced Graphs | ⏳ |
+| 20 | Mixed Interview Problems | ⏳ |
+
+---
+
+# 📂 Repository Structure
+
+```text
+dsa-interview-playbook
+│
+├── README.md
+│
+├── Day-01-Arrays
+│   ├── README.md
+│   ├── CheatSheet.md
+│   ├── CPP
+│   ├── Python
+│   └── JavaScript
+│
+├── Day-02-Two-Pointers
+├── Day-03-Sliding-Window
+├── ...
+└── Day-20-Mixed-Interview-Problems
+```
 
-|-----|----------------------------|:------:|
+---
 
-| 01 | Arrays \& Traversal | ✅ |
+# 📚 Day 1 - Arrays
 
-| 02 | Two Pointers | ⬜ |
+### Documentation
 
-| 03 | Sliding Window | ⬜ |
+- ✅ Arrays Handbook
+- ✅ Revision Cheat Sheet
 
-| 04 | Hash Maps | ⬜ |
+### Problems Completed
 
-| 05 | Binary Search | ⬜ |
+| # | Problem | Pattern |
+|---|---------|---------|
+| 1480 | Running Sum of 1D Array | Running Sum |
+| 1672 | Richest Customer Wealth | Single Pass Traversal |
+| 121 | Best Time to Buy and Sell Stock | Running Minimum |
+| 53 | Maximum Subarray | Kadane's Algorithm |
+| 217 | Contains Duplicate | Hash Set |
+| 268 | Missing Number | Sum Formula |
+| 283 | Move Zeroes | Two Pointers Foundation |
 
-| 06 | Linked Lists | ⬜ |
+### Languages
 
-| 07 | Stack | ⬜ |
+- ✅ C++
+- ✅ Python
+- ✅ JavaScript
 
-| 08 | Queue \& Deque | ⬜ |
+---
 
-| 09 | Trees | ⬜ |
+# 🎯 Learning Philosophy
 
-| 10 | Binary Search Trees | ⬜ |
+Instead of memorizing solutions, every problem is approached using the following framework:
 
-| 11 | Heaps / Priority Queue | ⬜ |
+1. Understand the problem.
+2. Clarify assumptions.
+3. Discuss the brute-force approach.
+4. Analyze complexity.
+5. Identify the underlying pattern.
+6. Derive the optimal solution.
+7. Dry run.
+8. Implement clean code.
+9. Review trade-offs and edge cases.
 
-| 12 | Backtracking | ⬜ |
+---
 
-| 13 | Graph Traversal | ⬜ |
+# 🛠️ Languages Used
 
-| 14 | Shortest Path Algorithms | ⬜ |
+- C++ (Primary Interview Language)
+- Python
+- JavaScript
 
-| 15 | Dynamic Programming I | ⬜ |
+---
 
-| 16 | Dynamic Programming II | ⬜ |
+# 📈 Progress
 
-| 17 | Greedy Algorithms | ⬜ |
+## Documentation
 
-| 18 | Tries | ⬜ |
+- ✅ Root README
+- ✅ Day 1 Handbook
+- ✅ Day 1 Cheat Sheet
 
-| 19 | Union Find (DSU) | ⬜ |
+## Problems Solved
 
-| 20 | Mixed Interview Problems | ⬜ |
+- ✅ 7 / 7 (Day 1)
 
+## Implementations
 
+| Language | Completed |
+|----------|----------:|
+| C++ | 7 |
+| Python | 7 |
+| JavaScript | 7 |
 
-\---
+**Total Solutions:** **21**
 
+---
 
+# 🎯 Repository Goals
 
-\# 💻 Languages
+- Build strong algorithmic intuition.
+- Master common interview patterns.
+- Maintain production-quality implementations.
+- Create a complete DSA reference for interview preparation.
+- Track consistent progress throughout the roadmap.
 
+---
 
+## 📬 Connect With Me
 
-\- C++ (Primary)
+**Faisal Imam**
 
-\- Python
+- 💼 LinkedIn: https://www.linkedin.com/in/faisalimam19
+- 💻 GitHub: https://github.com/faisalimam1
 
-\- JavaScript
+---
 
-
-
-\---
-
-
-
-\# 📈 Progress
-
-
-
-\- ✅ Repository Initialized
-
-\- ✅ Day 1 Started
-
-\- 🔄 Currently Learning: Arrays
-
-
-
-\---
-
-
-
-\# 🎯 Long-Term Goal
-
-
-
-By the end of this roadmap, I aim to confidently:
-
-
-
-\- Recognize algorithmic patterns quickly
-
-\- Derive optimal solutions from first principles
-
-\- Write clean and efficient C++ code
-
-\- Translate solutions into Python and JavaScript
-
-\- Explain trade-offs clearly during interviews
-
-\- Solve unseen Software Engineering interview problems with confidence
-
-
-
-\---
-
-
-
-\## ⭐ Connect With Me
-
-
-
-\*\*GitHub:\*\* https://github.com/faisalimam1
-
-
-
-\*\*LinkedIn:\*\* https://www.linkedin.com/in/faisalimam19
-
-
-
-\---
-
-
-
-> \*"Don't memorize solutions. Master patterns."\*
-
+⭐ If you find this repository useful, consider starring it!
