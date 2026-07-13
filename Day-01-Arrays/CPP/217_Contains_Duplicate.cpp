@@ -1,0 +1,43 @@
+/*
+===============================================================================
+                            DSA Interview Playbook
+===============================================================================
+
+Problem:
+217. Contains Duplicate
+
+Link:
+https://leetcode.com/problems/contains-duplicate/
+
+Pattern:
+Hash Set
+
+Difficulty:
+Easy
+
+Time Complexity:
+O(n)
+
+Space Complexity:
+O(n)
+
+===============================================================================
+*/
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+
+        unordered_set<int> seen;
+
+        for (int num : nums) {
+
+            if (seen.count(num))
+                return true;
+
+            seen.insert(num);
+        }
+
+        return false;
+    }
+};
