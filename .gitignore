@@ -1,0 +1,12 @@
+# VS Code
+.vscode/
+
+# Build files
+*.exe
+*.out
+*.o
+*.obj
+
+# OS files
+.DS_Store
+Thumbs.db
