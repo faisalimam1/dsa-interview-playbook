@@ -1,0 +1,36 @@
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int longestOnes(vector<int>& nums, int k) {
+
+        int left = 0;
+        int zeroCount = 0;
+        int maxLength = 0;
+
+        // Expand the window by moving the right pointer
+        for (int right = 0; right < nums.size(); right++) {
+
+            if (nums[right] == 0) {
+                zeroCount++;
+            }
+
+            // Shrink the window until it becomes valid
+            while (zeroCount > k) {
+
+                if (nums[left] == 0) {
+                    zeroCount--;
+                }
+
+                left++;
+            }
+
+            // Update the longest valid window
+            maxLength = max(maxLength, right - left + 1);
+        }
+
+        return maxLength;
+    }
+};
