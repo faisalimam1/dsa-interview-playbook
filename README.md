@@ -31,8 +31,8 @@ Each topic also includes documentation and revision notes.
 | Day | Topic | Status |
 |:---:|----------------------------|:------:|
 | 01 | Arrays | ✅ |
-| 02 | Two Pointers | ⏳ |
-| 03 | Sliding Window | ⏳ |
+| 02 | Two Pointers | ✅ |
+| 03 | Sliding Window | ✅ |
 | 04 | Prefix Sum | ⏳ |
 | 05 | Hash Maps & Hash Sets | ⏳ |
 | 06 | Stack | ⏳ |
@@ -60,18 +60,26 @@ dsa-interview-playbook
 │
 ├── README.md
 │
-├── Day-01-Arrays
+├── Arrays
 │   ├── README.md
 │   ├── CheatSheet.md
 │   ├── CPP
 │   ├── Python
 │   └── JavaScript
 │
-├── Day-02-Two-Pointers
-├── Day-03-Sliding-Window
-├── ...
-└── Day-20-Mixed-Interview-Problems
+├── Two-Pointers
+│   ├── README.md
+│   ├── CPP
+│   ├── Python
+│   └── JavaScript
+│
+└── Sliding-Window
+    ├── README.md
+    └── <problem>
+        └── solution.cpp
 ```
+
+> Folders are named by **pattern**, ordered to follow the learning roadmap above.
 
 ---
 
