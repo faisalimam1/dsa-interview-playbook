@@ -33,7 +33,7 @@ Each topic also includes documentation and revision notes.
 | 01 | Arrays | ✅ |
 | 02 | Two Pointers | ✅ |
 | 03 | Sliding Window | ✅ |
-| 04 | Prefix Sum | ⏳ |
+| 04 | Intervals & Prefix Sum | ✅ |
 | 05 | Hash Maps & Hash Sets | ⏳ |
 | 06 | Stack | ⏳ |
 | 07 | Queue & Deque | ⏳ |
