@@ -60,26 +60,30 @@ dsa-interview-playbook
 │
 ├── README.md
 │
-├── Arrays
+├── 01-Arrays
 │   ├── README.md
 │   ├── CheatSheet.md
 │   ├── CPP
 │   ├── Python
 │   └── JavaScript
 │
-├── Two-Pointers
+├── 02-Two-Pointers
 │   ├── README.md
 │   ├── CPP
 │   ├── Python
 │   └── JavaScript
 │
-└── Sliding-Window
-    ├── README.md
-    └── <problem>
-        └── solution.cpp
+├── 03-Sliding-Window
+│   ├── README.md
+│   └── CPP
+│
+└── 04-Intervals-Prefix-Sum
+    ├── CPP
+    ├── Python
+    └── JavaScript
 ```
 
-> Folders are named by **pattern**, ordered to follow the learning roadmap above.
+> Folders are named by **pattern** and prefixed with a number so they stay ordered by the learning roadmap above.
 
 ---
 
