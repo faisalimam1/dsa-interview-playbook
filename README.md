@@ -34,22 +34,25 @@ Each topic also includes documentation and revision notes.
 | 02 | Two Pointers | ✅ |
 | 03 | Sliding Window | ✅ |
 | 04 | Intervals & Prefix Sum | ✅ |
-| 05 | Hash Maps & Hash Sets | ⏳ |
-| 06 | Stack | ⏳ |
-| 07 | Queue & Deque | ⏳ |
-| 08 | Binary Search | ⏳ |
-| 09 | Linked List | ⏳ |
-| 10 | Trees | ⏳ |
-| 11 | Binary Search Trees | ⏳ |
-| 12 | Heap / Priority Queue | ⏳ |
-| 13 | Backtracking | ⏳ |
-| 14 | Graphs (BFS & DFS) | ⏳ |
-| 15 | Topological Sort & Union Find | ⏳ |
-| 16 | Greedy Algorithms | ⏳ |
-| 17 | Dynamic Programming I | ⏳ |
-| 18 | Dynamic Programming II | ⏳ |
-| 19 | Advanced Graphs | ⏳ |
-| 20 | Mixed Interview Problems | ⏳ |
+| 05 | Strings – Palindrome & Expand Around Center | 🚧 |
+| 06 | Hash Maps & Hash Sets | ⏳ |
+| 07 | Stack | ⏳ |
+| 08 | Queue & Deque | ⏳ |
+| 09 | Binary Search | ⏳ |
+| 10 | Linked List | ⏳ |
+| 11 | Trees | ⏳ |
+| 12 | Binary Search Trees | ⏳ |
+| 13 | Heap / Priority Queue | ⏳ |
+| 14 | Backtracking | ⏳ |
+| 15 | Graphs (BFS & DFS) | ⏳ |
+| 16 | Topological Sort & Union Find | ⏳ |
+| 17 | Greedy Algorithms | ⏳ |
+| 18 | Dynamic Programming I | ⏳ |
+| 19 | Dynamic Programming II | ⏳ |
+| 20 | Advanced Graphs | ⏳ |
+| 21 | Mixed Interview Problems | ⏳ |
+
+Legend: ✅ complete &nbsp;•&nbsp; 🚧 in progress &nbsp;•&nbsp; ⏳ planned
 
 ---
 
@@ -77,17 +80,22 @@ dsa-interview-playbook
 │   ├── README.md
 │   └── CPP
 │
-└── 04-Intervals-Prefix-Sum
-    ├── CPP
-    ├── Python
-    └── JavaScript
+├── 04-Intervals-Prefix-Sum
+│   ├── README.md
+│   ├── CPP
+│   ├── Python
+│   └── JavaScript
+│
+└── 05-Strings-Palindrome
+    ├── README.md
+    └── CPP
 ```
 
 > Folders are named by **pattern** and prefixed with a number so they stay ordered by the learning roadmap above.
 
 ---
 
-# 📚 Day 1 - Arrays
+# 📚 Day 1 – Arrays
 
 ### Documentation
 
@@ -111,6 +119,94 @@ dsa-interview-playbook
 - ✅ C++
 - ✅ Python
 - ✅ JavaScript
+
+---
+
+# 📚 Day 2 – Two Pointers
+
+### Documentation
+
+- ✅ Two Pointers Notes
+
+### Problems Completed
+
+| # | Problem | Pattern |
+|---|---------|---------|
+| 167 | Two Sum II – Input Array Is Sorted | Opposite-End Two Pointers |
+| 125 | Valid Palindrome | Opposite-End Two Pointers |
+| 11 | Container With Most Water | Opposite-End Two Pointers (Greedy Shrink) |
+
+### Languages
+
+- ✅ C++
+- ✅ Python
+- ✅ JavaScript
+
+---
+
+# 📚 Day 3 – Sliding Window
+
+### Documentation
+
+- ✅ Sliding Window Notes
+
+### Problems Completed
+
+| # | Problem | Pattern |
+|---|---------|---------|
+| 643 | Maximum Average Subarray I | Fixed Sliding Window |
+| 1456 | Maximum Number of Vowels in a Substring of Given Length | Fixed Sliding Window |
+| 567 | Permutation in String | Sliding Window + Frequency Array |
+| 209 | Minimum Size Subarray Sum | Variable Sliding Window |
+| 1004 | Max Consecutive Ones III | Variable Sliding Window |
+
+### Languages
+
+- ✅ C++
+- ⏳ Python
+- ⏳ JavaScript
+
+---
+
+# 📚 Day 4 – Intervals & Prefix Sum
+
+### Documentation
+
+- ✅ Intervals & Prefix Sum Notes
+
+### Problems Completed
+
+| # | Problem | Pattern |
+|---|---------|---------|
+| 56 | Merge Intervals | Sort + Merge Overlapping Intervals |
+| 238 | Product of Array Except Self | Prefix / Suffix Products |
+| 560 | Subarray Sum Equals K | Prefix Sum + Hash Map |
+
+### Languages
+
+- ✅ C++
+- ✅ Python
+- ✅ JavaScript
+
+---
+
+# 📚 Day 5 – Strings: Palindrome & Expand Around Center
+
+### Documentation
+
+- ✅ Palindrome Pattern Notes
+
+### Problems Completed
+
+| # | Problem | Pattern |
+|---|---------|---------|
+| 680 | Valid Palindrome II | Two Pointers + One Allowed Deletion |
+
+### Languages
+
+- 🚧 C++
+- ⏳ Python
+- ⏳ JavaScript
 
 ---
 
@@ -145,20 +241,32 @@ Instead of memorizing solutions, every problem is approached using the following
 - ✅ Root README
 - ✅ Day 1 Handbook
 - ✅ Day 1 Cheat Sheet
+- ✅ Day 2 Notes
+- ✅ Day 3 Notes
+- ✅ Day 4 Notes
+- ✅ Day 5 Notes
 
 ## Problems Solved
 
-- ✅ 7 / 7 (Day 1)
+| Day | Topic | Problems |
+|:---:|-------|---------:|
+| 01 | Arrays | 7 |
+| 02 | Two Pointers | 3 |
+| 03 | Sliding Window | 5 |
+| 04 | Intervals & Prefix Sum | 3 |
+| 05 | Strings – Palindrome | 1 |
+
+**Unique Problems Solved:** **19**
 
 ## Implementations
 
 | Language | Completed |
 |----------|----------:|
-| C++ | 7 |
-| Python | 7 |
-| JavaScript | 7 |
+| C++ | 19 |
+| Python | 13 |
+| JavaScript | 13 |
 
-**Total Solutions:** **21**
+**Total Solutions:** **45**
 
 ---
 

@@ -1,5 +1,9 @@
 # Day 2 – Two Pointers
 
+## Overview
+
+Day 2 introduced the **Two Pointers** pattern—replacing nested loops with two indices that move toward each other, so every step eliminates a candidate that can no longer improve the answer.
+
 ## Pattern Learned
 
 **Opposite-End Two Pointers**
@@ -74,3 +78,13 @@ Use this pattern when:
 - Define loop invariants.
 - Dry-run before implementation.
 - Translate the same algorithm across multiple languages.
+
+---
+
+## Related
+
+The palindrome check from **Valid Palindrome (#125)** is extended in **Day 5 – Strings: Palindrome & Expand Around Center**, where one deletion is allowed and palindromes are grown outward from a center.
+
+---
+
+**Author:** Faisal Imam

@@ -70,9 +70,17 @@ Consider using the Sliding Window technique when the problem involves:
 
 ---
 
-## Language
+## Languages
 
-- C++
+- ✅ C++
+- ⏳ Python
+- ⏳ JavaScript
+
+---
+
+## Related
+
+**Permutation in String (#567)** uses a frequency array to compare windows—the same counting idea that returns in **Day 6 – Hash Maps & Hash Sets**.
 
 ---
 

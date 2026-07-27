@@ -223,12 +223,17 @@ For every problem, follow this sequence:
 
 # 📝 Problems Covered
 
-| Problem | Pattern |
-|----------|----------|
-| Running Sum of 1D Array (#1480) | Running Sum |
-| Richest Customer Wealth (#1672) | Single Pass Traversal |
+| Problem | Pattern | Difficulty |
+|----------|----------|------------|
+| Running Sum of 1D Array (#1480) | Running Sum | Easy |
+| Richest Customer Wealth (#1672) | Single Pass Traversal | Easy |
+| Best Time to Buy and Sell Stock (#121) | Running Minimum | Easy |
+| Maximum Subarray (#53) | Kadane's Algorithm | Medium |
+| Contains Duplicate (#217) | Hash Set | Easy |
+| Missing Number (#268) | Sum Formula | Easy |
+| Move Zeroes (#283) | Two Pointers Foundation | Easy |
 
-> More Day 1 problems will be added as they are completed.
+All seven problems are implemented in **C++**, **Python**, and **JavaScript**.
 
 ---
 
@@ -239,6 +244,11 @@ For every problem, follow this sequence:
 | Running Sum | O(n) | O(1) |
 | Prefix Sum Construction | O(n) | O(n) |
 | Single Pass Scan | O(n) | O(1) |
+| Running Minimum | O(n) | O(1) |
+| Kadane's Algorithm | O(n) | O(1) |
+| Hash Set Lookup | O(n) | O(n) |
+| Sum Formula | O(n) | O(1) |
+| Two Pointers (Write Index) | O(n) | O(1) |
 
 ---
 
@@ -288,6 +298,10 @@ During the interview:
 
 - runningSum
 - maxWealth
+- minPrice, maxProfit
+- currentSum, maxSum
+- visited (hash set)
+- writeIndex
 
 ---
 

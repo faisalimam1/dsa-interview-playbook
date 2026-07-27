@@ -14,6 +14,16 @@ The key idea: a palindrome is defined by its **center**. A string of length `n` 
 |----------:|---------|---------|------------|
 | 680 | Valid Palindrome II | Two Pointers + One Allowed Deletion | Easy |
 
+### Planned
+
+| LeetCode | Problem | Pattern | Difficulty |
+|----------:|---------|---------|------------|
+| 5 | Longest Palindromic Substring | Expand Around Center | Medium |
+| 647 | Palindromic Substrings | Expand Around Center (Count) | Medium |
+| 409 | Longest Palindrome | Frequency Counting | Easy |
+
+> **Valid Palindrome (#125)** was already solved in [Day 2 – Two Pointers](../02-Two-Pointers/README.md) and is the foundation for this pattern.
+
 ---
 
 ## Concepts Covered
@@ -54,9 +64,11 @@ Consider these patterns when the problem involves:
 
 ---
 
-## Language
+## Languages
 
-- C++
+- 🚧 C++
+- ⏳ Python
+- ⏳ JavaScript
 
 ---
 
